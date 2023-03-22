@@ -14,7 +14,7 @@ function loadRandomImage() {
             //实现随机访问
             var randomIndex = Math.floor(Math.random() * imageUrls.length);
             //实现额面跳转
-            window.location.href=imageUrls[randomIndex];
+            window.location.href="https://i.imgtg.com/" + imageUrls[randomIndex] + ".jpg";
         }
         else{
             console.log("图片文件状态异常，可联系foryouos@qq.com")
